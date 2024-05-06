@@ -122,7 +122,7 @@ def display_ETF_informations_boxes(choosen_ETFs):
                     html.Div(id=choosen_ETFs, children=[
                     html.Div(id='basic_informations', children=[
                         html.P(children='Podstawowe informacje:',  style={'textAlign': 'center', 'fontSize': 22}),
-                        html.Div(f'Segment: {ETF_informations.get('Segment')}'),
+                        html.Div(f"Segment: {ETF_informations.get('Segment')}"),
                         html.Div(f'Category: {ETF_informations.get('Category')}'),
                         html.Div(f'Niche: {ETF_informations.get('Niche')}'),
                         html.Div(f'Focus: {ETF_informations.get('Focus')}'),
